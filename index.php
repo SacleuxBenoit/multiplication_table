@@ -11,13 +11,14 @@
         <h1>Flashcards</h1>
 
         <ul>
-        <li>Categories :</li>
-        <a href="#"><li>link1</li></a>
-        <a href="#"><li>link2</li></a>
-        <a href="#"><li>link3</li></a>
-        <a href="#"><li>link4</li></a>
-        <a href="#"><li>create flashCards</li></a>
+            <li>Categories :</li>
+            <a href="#"><li>link1</li></a>
+            <a href="#"><li>link2</li></a>
+            <a href="#"><li>link3</li></a>
+            <a href="#"><li>link4</li></a>
+            <a href="createCards.php"><li>create flashCards</li></a>
         </ul>
+        
     </header>
 </body>
 </html>
