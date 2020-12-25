@@ -7,26 +7,28 @@
     <title>Document</title>
 </head>
 <body>
+    
     <?php
         include('components/header.php')
     ?>
+
 <div class="divForm"> 
-    <form action="#" method="post">
-            <p>
-                <label for="front">Front :</label>
-                <input type="text" name="front" id="front">
-            </p>
+    <form action="database/addCards.php" method="post">
+        <p>
+            <label for="front">Front :</label>
+            <input type="text" name="front" id="front">
+        </p>
 
-            <p>
-                <label for="back">Back :</label>
-                <input type="text" name="back" id="back">
-            </p>
+        <p>
+            <label for="back">Back :</label>
+            <input type="text" name="back" id="back">
+        </p>
 
-            <p>
-                <input type="submit" value="submit">
-            </p>
+        <p>
+            <input type="submit" value="submit">
+        </p>
     </form>
-    </div>
+</div>
 
 </body>
 </html>
