@@ -12,8 +12,6 @@
     ?>
 <div class="divForm"> 
     <form action="#" method="post">
-
-        
             <p>
                 <label for="front">Front :</label>
                 <input type="text" name="front" id="front">
