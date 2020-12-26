@@ -1,5 +1,5 @@
 <?php
-include('../pass.php');
+include('./pass.php');
         try
         {
             $bdd = new PDO('mysql:host=localhost;dbname=flashcards;charset=utf8', $_SESSION['user'], $_SESSION['pass']);
