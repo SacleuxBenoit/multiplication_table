@@ -7,14 +7,18 @@
     <title>Document</title>
 </head>
 <body>
+
     <?php
         include('components/header.php');
         include('database/connection_database.php');
         $get_cards = $bdd->query('SELECT front,back FROM addcards ORDER BY RAND() LIMIT 1');
         $get_cards->execute();
         while($display_cards = $get_cards->fetch()){
-            echo '<div class="displayCards">' . '<button>' .$display_cards['front'] .'</button>' . '</div>';
+            echo '<div class="displayCards">' . '<button>' . $display_cards['front'] . '</button>' . '</div>';
         }
     ?>
+
+<button id="refresh" onclick="document.location.reload(false)">Next</button>
+
 </body>
 </html>
