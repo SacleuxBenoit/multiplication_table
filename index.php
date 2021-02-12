@@ -15,6 +15,7 @@
         $get_cards->execute();
         while($display_cards = $get_cards->fetch()){
             echo '<div class="displayCards">' . '<button>' . $display_cards['front'] . '</button>' . '</div>';
+            echo '<div class="displayCards">' . '<button>' . $display_cards['back'] . '</button>' . '</div>';
         }
     ?>
 
