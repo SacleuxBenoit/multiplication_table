@@ -14,8 +14,12 @@
         $get_cards = $bdd->query('SELECT front,back FROM addcards ORDER BY RAND() LIMIT 1');
         $get_cards->execute();
         while($display_cards = $get_cards->fetch()){
-            echo '<div class="displayCards">' . '<button>' . $display_cards['front'] . '</button>' . '</div>';
-            echo '<div class="displayCards">' . '<button>' . $display_cards['back'] . '</button>' . '</div>';
+            ?>
+                <div>
+                    <button><?php echo $display_cards['front'] ?></button>
+                    <button><?php echo $display_cards['back'] ?></button>
+                </div>
+            <?php
         }
     ?>
 
