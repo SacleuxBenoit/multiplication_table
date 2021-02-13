@@ -17,7 +17,7 @@
             ?>
                 <div>
                     <button><?php echo $display_cards['front'] ?></button>
-                    <button><?php echo $display_cards['back'] ?></button>
+                    <button hidden><?php echo $display_cards['back'] ?></button>
                 </div>
             <?php
         }
