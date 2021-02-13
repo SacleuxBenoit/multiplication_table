@@ -16,8 +16,8 @@
         while($display_cards = $get_cards->fetch()){
             ?>
                 <div>
-                    <button><?php echo $display_cards['front'] ?></button>
-                    <button hidden><?php echo $display_cards['back'] ?></button>
+                    <button  onclick="buttonBackVisible()"><?php echo $display_cards['front'] ?></button>
+                    <button  onclick="buttonBackHidden()" id="buttonBackHidden"><?php echo $display_cards['back'] ?></button>
                 </div>
             <?php
         }
@@ -25,5 +25,6 @@
 
 <button id="refresh" onclick="document.location.reload(false)">Next</button>
 
+<script src="./js/script.js"></script>
 </body>
 </html>
