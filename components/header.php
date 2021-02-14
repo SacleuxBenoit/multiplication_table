@@ -13,7 +13,7 @@
 
         <ul>
             <a href="createCards.php"><li>Create flashCards</li></a>
-            <a href="deleteCards.php"><li>Delete Cards</li>
+            <a href="./database/deleteCards.php"><li>Delete Cards</li>
         </ul>
         
     </header>
