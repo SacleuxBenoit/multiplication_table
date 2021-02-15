@@ -12,8 +12,8 @@
         <h1>Flashcards</h1>
 
         <ul>
-            <a href="createCards.php"><li>Create flashCards</li></a>
-            <a href="./database/deleteCards.php"><li>Delete Cards</li>
+            <a href="http://localhost/flashcards/createCards.php"><li>Create flashCards</li></a>
+            <a href="http://localhost/flashcards/database/deleteCards.php"><li>Delete Cards</li>
         </ul>
         
     </header>
