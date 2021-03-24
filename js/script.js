@@ -5,3 +5,5 @@ function buttonBackHidden(){
 function buttonBackVisible(){
     document.getElementById('buttonBackHidden').style.visibility = "visible"
 }
+
+buttonBackHidden();
