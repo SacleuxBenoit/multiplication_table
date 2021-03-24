@@ -1,3 +1,6 @@
+<?php
+    include('database/connection_database.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +13,6 @@
 
     <?php
         include('components/header.php');
-        include('database/connection_database.php');
         $get_cards = $bdd->query('SELECT front,back FROM addcards ORDER BY RAND() LIMIT 1');
         $get_cards->execute();
         while($display_cards = $get_cards->fetch()){

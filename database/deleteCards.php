@@ -1,3 +1,7 @@
+<?php
+include('../pass.php');
+include('connection_database.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +15,6 @@
     
     <?php
         include('../components/header.php');
-        include('connection_database.php');
 
         $get_cards = $bdd->query('SELECT * FROM addcards');
         while($show_cards = $get_cards->fetch()){
