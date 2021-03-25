@@ -19,7 +19,7 @@
         $get_cards->execute();
         while($display_cards = $get_cards->fetch()){
             ?>
-                <div>
+                <div class="divButton">
                     <button  onclick="buttonBackVisible()" class="buttonFront"><?php echo $display_cards['front'] ?></button>
                     <button  onclick="buttonBackHidden()" id="buttonBackHidden" class="buttonBack"><?php echo $display_cards['back'] ?></button>
                 </div>

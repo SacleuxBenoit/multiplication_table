@@ -3,8 +3,34 @@ body{
     display: grid;
     grid-template-areas:
     'header header header header'
-    'front front back back'
+    'card card card card'
     '. next next .';
+}
+
+
+.buttonFront{
+    height: 25em;
+    width: 25em;
+}
+
+.divButton{
+    grid-area: card;
+}
+
+.buttonBack{
+    height: 25em;
+    width: 25em;
+
+}
+
+.buttonNext{
+    grid-area: next;
+}
+
+/* --------------------- Header : --------------------- */
+
+header{
+    border: 1px solid black;
 }
 
 ul{
@@ -19,16 +45,4 @@ li{
 
 header{
     grid-area: header;
-}
-
-.buttonFront{
-    grid-area: front;
-}
-
-.buttonBack{
-    grid-area: back;
-}
-
-.buttonNext{
-    grid-area: next;
 }
