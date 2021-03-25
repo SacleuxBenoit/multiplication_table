@@ -1,6 +1,6 @@
 <?php
 include('../pass.php');
-include('connection_database.php');
+include('../database/connection_database.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +20,10 @@ include('connection_database.php');
         while($show_cards = $get_cards->fetch()){
             ?>
                 <div>
-                    <p> <?php echo $show_cards['front'] . " = "  . $show_cards['back']?> </p>
+                    <p> 
+                        <?php echo $show_cards['front'] . " = "  . $show_cards['back']?> 
+                        <a href="../database/deleteCards_database.php" class="deleteCards">X</a>
+                    </p>
                 </div>
             <?php
         }

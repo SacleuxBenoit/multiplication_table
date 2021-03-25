@@ -13,7 +13,7 @@
 
         <ul>
             <a href="http://localhost:8888/test/flashcards/createCards.php"><li>Create flashCards</li></a>
-            <a href="http://localhost:8888/test/flashcards/database/deleteCards.php"><li>Delete Cards</li></a>
+            <a href="http://localhost:8888/test/flashcards/layouts/deleteCards.php"><li>Delete Cards</li></a>
         </ul>
         
     </header>
