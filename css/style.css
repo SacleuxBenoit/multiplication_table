@@ -1,5 +1,10 @@
 body{
     text-align: center;
+    display: grid;
+    grid-template-areas:
+    'header header header header'
+    'front front back back'
+    '. next next .';
 }
 
 ul{
@@ -10,4 +15,20 @@ ul{
 li{
     float: left;
     margin-left: 2em;
+}
+
+header{
+    grid-area: header;
+}
+
+.buttonFront{
+    grid-area: front;
+}
+
+.buttonBack{
+    grid-area: back;
+}
+
+.buttonNext{
+    grid-area: next;
 }
