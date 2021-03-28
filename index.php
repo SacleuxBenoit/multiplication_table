@@ -1,7 +1,7 @@
 <?php
     session_start();
-    include('database/connection_database.php');
     include('./pass.php');
+    include('database/connection_database.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
