@@ -9,11 +9,11 @@
 <body>
 
     <header>
-        <h1><a href="http://localhost:8888/test/flashcards/">Flashcards</a></h1>
+        <h1><a href="http://localhost:8888/test/flashcards/">Multiplication tables</a></h1>
 
         <ul>
-            <a href="http://localhost:8888/test/flashcards/createCards.php"><li>Create flashCards</li></a>
-            <a href="http://localhost:8888/test/flashcards/layouts/deleteCards.php"><li>Delete Cards</li></a>
+            <a href="http://localhost:8888/test/flashcards/createCards.php"><li>Create operation</li></a>
+            <a href="http://localhost:8888/test/flashcards/layouts/deleteCards.php"><li>Delete operation</li></a>
         </ul>
         
     </header>
