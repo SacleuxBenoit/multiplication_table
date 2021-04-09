@@ -15,13 +15,13 @@
 
     <?php
         include('../components/header.php');
-        $get_cards = $bdd->query('SELECT front,back FROM addcards ORDER BY RAND() LIMIT 1');
+        $get_cards = $bdd->query('SELECT operation,result FROM addcards ORDER BY RAND() LIMIT 1');
         $get_cards->execute();
         while($display_cards = $get_cards->fetch()){
             ?>
                 <div class="divButton">
-                    <button  onclick="buttonBackVisible()" class="buttonFront"><?php echo $display_cards['front'] ?></button>
-                    <button  onclick="buttonBackHidden()" id="buttonBackHidden" class="buttonBack"><?php echo $display_cards['back'] ?></button>
+                    <button  onclick="buttonBackVisible()" class="buttonFront"><?php echo $display_cards['operation'] ?></button>
+                    <button  onclick="buttonBackHidden()" id="buttonBackHidden" class="buttonBack"><?php echo $display_cards['result'] ?></button>
                 </div>
             <?php
         }

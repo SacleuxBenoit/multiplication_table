@@ -21,7 +21,7 @@ include('../database/connection_database.php');
             ?>
                 <div>
                     <p> 
-                        <?php echo $show_cards['front'] . " = "  . $show_cards['back']?> 
+                        <?php echo $show_cards['operation'] . " = "  . $show_cards['result']?> 
                         <a href="../database/deleteCards_database.php" class="deleteCards">X</a>
                     </p>
                 </div>
