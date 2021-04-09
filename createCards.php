@@ -15,13 +15,18 @@
 <div class="divForm"> 
     <form action="database/addCards.php" method="post">
         <p>
-            <label for="front">Front :</label>
-            <input type="text" name="front" id="front">
+            <label for="operation">operation :</label>
+            <input type="text" name="operation" id="operation">
         </p>
 
         <p>
-            <label for="back">Back :</label>
-            <input type="text" name="back" id="back">
+            <label for="result">result :</label>
+            <input type="text" name="result" id="result">
+        </p>
+
+        <p>
+            <label for="tableNumber">table number :</label>
+            <input type="text" name="tableNumber" id="tableNumber">
         </p>
 
         <p>
