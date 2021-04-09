@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/createCards.css">
+    <link rel="stylesheet" href="../css/createCards.css">
     <title>Document</title>
 </head>
 <body>
     
     <?php
-        include('components/header.php')
+        include('../components/header.php')
     ?>
 
 <div class="divForm"> 
-    <form action="database/addCards.php" method="post">
+    <form action="../database/addCards.php" method="post">
         <p>
             <label for="operation">operation :</label>
             <input type="text" name="operation" id="operation">

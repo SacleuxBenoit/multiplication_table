@@ -8,9 +8,9 @@ if(!empty($_POST['operation']) && !empty($_POST['result']) && !empty($_POST['tab
     $get_cards->bindParam(':operation', $_POST['operation']);
     $get_cards->bindParam(':result', $_POST['result']);
     $get_cards->execute();
-    header('Location: http://localhost:8888/test/multiplication_table/createCards.php');
+    header('Location: http://localhost:8888/test/multiplication_table/layouts/createCards.php');
 }else{
-    header('Location: http://localhost:8888/test/multiplication_table/createCards.php');
+    header('Location: http://localhost:8888/test/multiplication_table/layouts/createCards.php');
 }
 
 ?>
