@@ -1,34 +1,3 @@
-body{
-    text-align: center;
-    display: grid;
-    grid-template-areas:
-    'header header header header'
-    'card card card card'
-    '. next next .';
-}
-
-
-.buttonFront{
-    height: 25em;
-    width: 25em;
-}
-
-.divButton{
-    grid-area: card;
-    margin-top: 5%;
-}
-
-.buttonBack{
-    height: 25em;
-    width: 25em;
-
-}
-
-.buttonNext{
-    grid-area: next;
-    margin-top: 5%;
-}
-
 /* --------------------- Header : --------------------- */
 
 header{
