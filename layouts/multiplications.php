@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/style_multiplications.css">
-    <title>Document</title>
+    <title>Multiplications</title>
 </head>
 <body>
 
