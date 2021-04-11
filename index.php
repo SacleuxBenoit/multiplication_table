@@ -25,7 +25,7 @@
     </div>
 
     <div id="chooseTable">
-        <form action="#" method="post">
+        <form action="./layouts/multiplications.php" method="post">
 
             <select name="dropdownTable" id="dropdownTable">
                 <option value="1">Table 1</option>
