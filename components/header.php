@@ -12,7 +12,7 @@
         <h1><a href="http://localhost:8888/test/multiplication_table/">Multiplication tables</a></h1>
 
         <ul>
-            <a href="http://localhost:8888/test/multiplication_table/createCards.php"><li>Create operation</li></a>
+            <a href="http://localhost:8888/test/multiplication_table/layouts/createCards.php"><li>Create operation</li></a>
             <a href="http://localhost:8888/test/multiplication_table/layouts/deleteCards.php"><li>Delete operation</li></a>
         </ul>
         

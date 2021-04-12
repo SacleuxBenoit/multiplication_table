@@ -1,7 +1,25 @@
+body{
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+    'header header header header'
+    'descriptionIndex descriptionIndex descriptionIndex descriptionIndex'
+    '. dropdownTable dropdownTable .'
+    '. next next .';
+}
+
+#descriptionIndex{
+    grid-area: descriptionIndex;
+}
+
+#dropdownTable{
+    grid-area: dropdownTable;
+}
 /* --------------------- Header : --------------------- */
 
 header{
     border: 1px solid black;
+    grid-area: header;
 }
 
 ul{
