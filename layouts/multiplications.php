@@ -16,8 +16,10 @@
 
     <?php
         include('../components/header.php');
-        $get_cards = $bdd->query('SELECT operation,result FROM addcards ORDER BY RAND() LIMIT 1');
+        $get_cards = $bdd->prepare('SELECT operation,result FROM addcards WHERE tableNumber = :tableNumber ORDER BY RAND() LIMIT 1');
+        $get_cards->bindParam(':tableNumber', $_POST['dropdownTable']);
         $get_cards->execute();
+
         while($display_cards = $get_cards->fetch()){
             ?>
                 <div class="divButton">
