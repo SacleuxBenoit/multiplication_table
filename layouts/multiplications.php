@@ -2,6 +2,7 @@
     session_start();
     include('../pass.php');
     include('../database/connection_database.php');
+    $_SESSION['table'] = $_POST['dropdownTable'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +18,7 @@
     <?php
         include('../components/header.php');
         $get_cards = $bdd->prepare('SELECT operation,result FROM addcards WHERE tableNumber = :tableNumber ORDER BY RAND() LIMIT 1');
-        $get_cards->bindParam(':tableNumber', $_POST['dropdownTable']);
+        $get_cards->bindParam(':tableNumber', $_SESSION['table']);
         $get_cards->execute();
 
         while($display_cards = $get_cards->fetch()){
