@@ -1,6 +1,6 @@
-# flashcards
+# multiplications-table
 
-Flashcards system : 
+a site which sends a random multiplication according to the chosen table
 
 Stack :
 
